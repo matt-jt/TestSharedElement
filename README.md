@@ -2,8 +2,8 @@
 Samsung Nougat 7.0 Shared Element Issue
 
 ## Issue
-There appears to be an animation issue when doing a shared element transition between activies where you're animating a parent layout and one or mor of it's children.
-![Screenshot](/master/Screenshot_20170508-141744.png)
+There appears to be an animation issue when doing a shared element transition between activies where you're animating a parent layout and one or more of it's children.
+![Screenshot](/Screenshot_20170508-141744.png)
 
 ## Cause
 The coordinates of the child views in the onSharedElementStart method are still mapped to their parent and not the root.
